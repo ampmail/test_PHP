@@ -1,5 +1,4 @@
 <?php
-
     function getAppartmentLocation ($appNumber = 81, $levelQty = 5, $appartmentsPerFloor = 4, $entranceNumber = 5){
         $entrance = ceil($appNumber / ($levelQty * $appartmentsPerFloor));
         echo "Entrance: $entrance\n";
@@ -8,3 +7,4 @@
     }
 
     getAppartmentLocation();
+//
