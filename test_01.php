@@ -5,6 +5,5 @@
         $floor = ceil(($appNumber - (($entrance > 1)?(($entrance - 1) * $levelQty * $appartmentsPerFloor):(0))) / $appartmentsPerFloor);
         echo "Floor: $floor";
     }
-
     getAppartmentLocation();
 //
